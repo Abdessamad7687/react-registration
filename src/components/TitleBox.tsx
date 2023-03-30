@@ -1,6 +1,7 @@
 import { Box, Typography } from "@mui/material";
 import Grid from "@mui/material/Unstable_Grid2";
 
+
 const TitleBox: React.FC = () => {
   return (
     <Grid xs={0} sm={0} md={6} lg={6} xl={6} minHeight={550}>
@@ -12,7 +13,7 @@ const TitleBox: React.FC = () => {
             xs: 'none',
             sm: 'none',
             md: 'flex',
-            lg: 'flex', 
+            lg: 'flex',
             xl: 'flex'
           },
           flexDirection: "column",
@@ -29,7 +30,7 @@ const TitleBox: React.FC = () => {
           alignItems="flex-start"
         >
           <Typography variant="h4" fontWeight="bold" color="whitesmoke" mb={3}>
-          Smart find
+            Smart find
           </Typography>
         </Box>
       </Box>
